@@ -1,0 +1,135 @@
+/***********TAG SELECTORS***********/
+body {
+  margin: 0;
+  }
+
+h1 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+
+h2 {  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  }
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+  hr {
+    max-width: 548px;
+    margin: 10px auto;
+
+  }
+
+  a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+  }
+/***********CLASS SELECTORS***********/
+.yooheader {
+  background-color: black;
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  margin: 0 auto;
+  height: 200px;
+  width: 548px;
+}
+
+.yoo {
+  color: #F68220;
+}
+
+.headerfont {
+  color: white;
+  width:548px;
+  height: 200px;
+  margin: 0 auto;
+  line-height: 200px;
+  text-align: center;
+  }
+
+
+.orangebox {
+ background-color: #F68220;
+ width: 289px;
+ margin: 10px auto;
+ color: white;
+ text-align: center;
+ padding: 10px;
+  }
+
+.greybox {
+  background-color: #707070;
+  width: 289px;
+  margin: 10px auto;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.pagehead {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.pagefont {
+
+  max-width: 548px;
+  margin: 0 auto;
+}
+
+.subheadings {
+  text-align: center;
+}
+
+.arrownav {
+  width: 100%;
+}
+
+.arrowright {
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left: 40px solid #F68220;
+  display: inline-block;
+  position: absolute;
+  margin: 20px 22.5%;
+}
+
+.arrowleft {
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-right: 40px solid #F68220;
+  display: inline-block;
+  position: absolute;
+  margin: 20px 3.8%;
+}
+
+.guidehome {
+  margin: 100px 0 0 0;
+  text-align: center;
+
+}
+
+.internalbody {
+  background: #c0c0c0;
+  max-width:548px;
+  margin:auto;
+  padding-bottom: 20px;
+
+}
+
+
+/***********ID SELECTORS***********/
