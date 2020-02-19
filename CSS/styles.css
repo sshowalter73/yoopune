@@ -1,88 +1,88 @@
 /***********TAG SELECTORS***********/
 body {
   margin: 0;
-  }
+}
 
 h1 {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  font-size: 60px;
+  font-size: 5rem;
 }
+@media screen and (min-width: 600px){
 p {
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   padding: 10px;
-}
+}}
 
-h2 {  margin: 0;
+h2 {
+  margin: 0 auto;
   font-family: 'Montserrat', sans-serif;
-  font-size: 35px;
-  }
+  font-size: 2.1875rem;
+}
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
+  margin:0 auto;
 }
-  hr {
-    max-width: 548px;
-    margin: 10px auto;
 
-  }
+hr {
+  max-width: 548px;
+  margin: 10px auto;
+}
 
-  a {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+}
+/* Bootstrap */
+.container-flex {
+  text-align: center;
+}
 
-  }
+.row {
+  padding-bottom: 10px;
+}
+
 /***********CLASS SELECTORS***********/
 .yooheader {
   background-color: black;
+  background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-repeat:no-repeat;
+  height: 400px;
   margin: 0 auto;
-  height: 200px;
-  width: 548px;
+  max-width: 766px;
+}
+
+.headerfont {
+  color: white;
+  text-align: center;
+  line-height: 5;
 }
 
 .yoo {
   color: #F68220;
 }
 
-.headerfont {
-  color: white;
-  width:548px;
-  height: 200px;
-  margin: 0 auto;
-  line-height: 200px;
-  text-align: center;
-  }
-
-
 .orangebox {
  background-color: #F68220;
- width: 289px;
- margin: 10px auto;
  color: white;
- text-align: center;
- padding: 10px;
   }
 
-.greybox {
+  .greybox {
   background-color: #707070;
-  width: 289px;
-  margin: 10px auto;
   color: white;
-  text-align: center;
-  padding: 10px;
 }
 
-.pagehead {
+.categories {
   text-align: center;
-  margin-top: 10px;
+  margin: 10px auto;
+max-width: 528px;
 }
 
+/* Facilities */
 .pagefont {
-
   max-width: 548px;
   margin: 0 auto;
 }
@@ -91,45 +91,21 @@ h3 {
   text-align: center;
 }
 
-.arrownav {
-  width: 100%;
-}
-
-.arrowright {
-  width: 0;
-  height: 0;
-  border-top: 40px solid transparent;
-  border-bottom: 40px solid transparent;
-  border-left: 40px solid #F68220;
-  display: inline-block;
-  position: absolute;
-  margin: 20px 22.5%;
-}
-
-.arrowleft {
-  width: 0;
-  height: 0;
-  border-top: 40px solid transparent;
-  border-bottom: 40px solid transparent;
-  border-right: 40px solid #F68220;
-  display: inline-block;
-  position: absolute;
-  margin: 20px 3.8%;
-}
-
-.guidehome {
-  margin: 100px 0 0 0;
+.pagehead {
   text-align: center;
-
+  margin-top: 20px;
 }
 
-.internalbody {
-  background: #c0c0c0;
-  max-width:548px;
-  margin:auto;
-  padding-bottom: 20px;
-
+.subheadings {
+  padding: 10px;
+  margin: 0 auto;
 }
 
 
-/***********ID SELECTORS***********/
+/* Viewport Sizes */
+@media screen and (max-width: 601px) {
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size:1.2rem;
+  padding: 10px;
+} }
