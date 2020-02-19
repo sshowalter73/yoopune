@@ -8,7 +8,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 5rem;
 }
-@media screen and (min-width: 600px){
+@media screen and (max-width: 600px){
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.25rem;
@@ -78,12 +78,12 @@ a {
 .categories {
   text-align: center;
   margin: 10px auto;
-max-width: 528px;
+max-width: 766px;
 }
 
 /* Facilities */
 .pagefont {
-  max-width: 548px;
+  max-width: 766px;
   margin: 0 auto;
 }
 
@@ -103,9 +103,9 @@ max-width: 528px;
 
 
 /* Viewport Sizes */
-@media screen and (max-width: 601px) {
+@media screen and (min-width: 601px) {
 p {
   font-family: 'Roboto', sans-serif;
-  font-size:1.875rem;
+  font-size:3rem;
   padding: 10px;
 } }
