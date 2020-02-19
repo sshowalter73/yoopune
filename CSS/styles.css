@@ -106,6 +106,6 @@ max-width: 528px;
 @media screen and (max-width: 601px) {
 p {
   font-family: 'Roboto', sans-serif;
-  font-size:1.2rem;
+  font-size:1.875rem;
   padding: 10px;
 } }
