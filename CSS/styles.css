@@ -129,6 +129,10 @@ tel {
 }
 
 /* facilities */
+.facilities a {
+  color: #000000;
+}
+
 .content {
   padding: 10px;
   text-align: center;
@@ -150,10 +154,6 @@ tel {
   padding-bottom: 50px;
   text-align: center;
   color: #F68220;
-}
-
-a {
-  color: #000000;
 }
 
 @media screen and (max-device-width: 575.98px) {
