@@ -152,6 +152,10 @@ tel {
   color: #F68220;
 }
 
+a {
+  color: #000000;
+}
+
 @media screen and (max-device-width: 575.98px) {
   .content {
     padding: 0 32px 0 32px;
